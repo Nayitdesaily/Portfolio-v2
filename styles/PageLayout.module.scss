@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 1rem;
+  padding: 0rem 3rem;
+  z-index: 100;
+
+    .navBarList {
+      display: flex;
+      flex-direction: row;
+      
+      .navBarListLink {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        letter-spacing: .2rem;
+        padding: 1rem;
+        cursor: pointer;
+      }
+    }
+  
+  .logoImg {
+    width: 4rem;
+    height: 4rem;
+    top: 1rem;
+    left: 2rem;
+  }
+}
+
+// Responsive Mobile
+@media screen and (max-width: 375px) { 
+  .header {
+    display: none;
+  }
+}
+
+

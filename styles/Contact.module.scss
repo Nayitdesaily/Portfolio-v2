@@ -1,0 +1,175 @@
+.contact {
+  height: 100vh;
+  color: black;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .contactTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contactTitle {
+      font-size: 2rem;
+      font-weight: 500;
+      z-index: 100;
+    }
+  
+    .contactTitleShadow {
+      font-size: 2rem;
+      font-weight: 500;
+      color: white;
+      margin-left: -6.5rem;
+    }
+  }
+
+  .contactDescription {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: black;
+    line-height: 2rem;
+    width: 60%;
+    margin-top: 2rem;
+    text-align: center  ;
+
+    a {
+      font-weight: 700;
+      color: black;
+      text-decoration: none;
+
+    }
+  }
+
+  .getInTouch {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+
+  }
+
+  .cvButton {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      width: 15%;
+      gap: 1rem;
+      background-color: white;
+      border-radius: 1rem;
+      font-weight: 700;
+      font-size: 1rem;
+      margin-top: 2rem;
+      cursor: pointer;
+      padding: 1rem 0;
+      color: black;
+  }
+
+  .socialNetwork {
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 6rem;
+      font-size: 1.2rem;
+      list-style: none;
+
+      .socialLink {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) { 
+  .contact {
+    height: 100vh;
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+    .contactTitleContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .contactTitle {
+        font-size: 1rem;
+        font-weight: 500;
+        z-index: 100;
+      }
+    
+      .contactTitleShadow {
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        margin-left: -6.5rem;
+      }
+    }
+  
+    .contactDescription {
+      font-size: 1rem;
+      font-weight: 300;
+      color: black;
+      line-height: 2rem;
+      width: 80%;
+      margin-top: 2rem;
+      text-align: center  ;
+  
+      a {
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+  
+      }
+    }
+  
+    .getInTouch {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #FFFFFF;
+  
+    }
+  
+    .cvButton {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        gap: 1rem;
+        background-color: white;
+        border-radius: 1rem;
+        font-weight: 700;
+        font-size: .9rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        padding: 1rem 0;
+        color: black;
+    }
+  
+    .socialNetwork {
+  
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .75rem;
+        margin-top: 8rem;
+        font-size: 1rem;
+        list-style: none;
+  
+        .socialLink {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}

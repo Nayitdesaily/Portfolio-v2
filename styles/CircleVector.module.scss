@@ -1,0 +1,23 @@
+.circleVector {
+  display: flex;
+  gap: .4rem;
+  position: absolute;
+
+  .circleVectorItem {
+    font-size: .9rem;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .circleVector {
+    display: flex;
+    gap: .2rem;
+    position: absolute;
+  
+    .circleVectorItem {
+      font-size: .6rem;
+      color: white;
+    }
+  }
+ }

@@ -1,0 +1,162 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3E3963;
+  color: #F4F269;
+  width: 100%;
+
+  .homeContainer {
+    margin-left: 4rem;
+
+    .homePresentation {
+      font-weight: 300;
+      display: flex;
+      flex-direction: column;
+
+      .homePresentationName {
+        font-weight: 700;
+        font-size: 8rem;
+        color: #fee440;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .homePresentationCarrer {
+        font-weight: 300;
+        font-size: 5rem;
+        color: #EEECFF;
+        margin-top: -5rem;
+        span {
+          font-weight: 700;
+          color: #EEECFF;
+        }
+      }
+    }
+
+    .homeDescriptionOne {
+      color: #EEECFF;
+      font-weight: 700;
+      position: absolute;
+      top: 8rem;
+      left: 40%;
+      font-size: 1.2rem;
+    }
+
+    .homeDescriptionTwo {
+      color: #EEECFF;
+      font-weight: 700;
+      position: absolute;
+      bottom: 5rem;
+      left: 40%;
+      font-size: 1.2rem;
+    }
+  }
+
+  .scrollDown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EEECFF;
+    letter-spacing: .3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 1rem;
+    bottom: 2rem;
+    right: 5rem;
+    .scrollDownSvg {
+      font-size: 2rem;
+      color: #EEECFF;
+    }
+  }
+  
+
+}
+
+// Responsive Mobile
+@media screen and (max-width: 375px) { 
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3E3963;
+    color: #F4F269;
+    width: 100%;
+  
+    .homeContainer {
+      margin-left: 0rem;
+  
+      .homePresentation {
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+  
+        .homePresentationName {
+          font-weight: 700;
+          font-size: 3rem;
+          color: #fee440;
+          text-align: center;
+          text-transform: uppercase;
+        }
+  
+        .homePresentationCarrer {
+          font-weight: 300;
+          font-size: 1.5rem;
+          color: #EEECFF;
+          margin-top: -1.5rem;
+          text-align: center;
+          span {
+            font-weight: 700;
+            color: #EEECFF;
+          }
+        }
+      }
+  
+      .homeDescriptionOne {
+        color: #EEECFF;
+        font-weight: 700;
+        position: absolute;
+        top: 12rem;
+        left: 25%;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 60%;
+      }
+  
+      .homeDescriptionTwo {
+        color: #EEECFF;
+        font-weight: 700;
+        position: absolute;
+        bottom: 12rem;
+        left: 25%;
+        font-size: 1.2rem;
+        width: 60%;
+        text-align: center;
+      }
+    }
+  
+    .scrollDown {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #EEECFF;
+      letter-spacing: .3rem;
+      font-size: 1rem;
+      font-weight: 700;
+      gap: 1rem;
+      bottom: 2rem;
+      right: 30%;
+      .scrollDownSvg {
+        font-size: 1.5rem;
+        color: #EEECFF;
+      }
+    }
+    
+  
+  }
+  
+}
