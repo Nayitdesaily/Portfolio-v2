@@ -46,6 +46,7 @@ export default function Contact() {
                target="_blank"
                rel="noreferrer"
             >
+               {' '}
                LinkedIn
             </a>
             but if you want contact to me you can send me an email ,I am ready
