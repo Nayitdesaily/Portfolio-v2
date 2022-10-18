@@ -40,10 +40,14 @@ export default function Contact() {
             Lets get in touch!
          </motion.h5>
          <motion.p className={styles.contactDescription} style={{ opacity }}>
-            I'm very active on{' '}
-            <a href="https://www.linkedin.com/in/nayit-desaily" target="_blank">
+            I'm very active on
+            <a
+               href="https://www.linkedin.com/in/nayit-desaily"
+               target="_blank"
+               rel="noopener"
+            >
                LinkedIn
-            </a>{' '}
+            </a>
             but if you want contact to me you can send me an email ,I am ready
             to apply all my knowledge and sure that i can be a great piece for
             your company to achieve all goals

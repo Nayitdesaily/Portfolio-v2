@@ -58,7 +58,7 @@ export default function Project({
                      repeat: Infinity,
                   }}
                >
-                  <a href={url} target="_blank">
+                  <a href={url} target="_blank" rel="noopener">
                      {buttonDescription}
                   </a>
                </motion.button>
