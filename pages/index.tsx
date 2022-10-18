@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             <motion.div
                className={styles.scrollDown}
-               initial={{ y: -50 }}
+               initial={{ y: -10 }}
                animate={{ y: 0 }}
                transition={{
                   repeat: Infinity,
