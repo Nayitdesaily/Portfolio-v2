@@ -40,11 +40,11 @@ export default function Contact() {
             Lets get in touch!
          </motion.h5>
          <motion.p className={styles.contactDescription} style={{ opacity }}>
-            I'm very active on
+            I am very active on
             <a
                href="https://www.linkedin.com/in/nayit-desaily"
                target="_blank"
-               rel="noopener"
+               rel="noreferrer"
             >
                LinkedIn
             </a>
