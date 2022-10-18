@@ -1,7 +1,7 @@
 import styles from '../styles/About.module.scss'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNodeJs } from '@fortawesome/fontawesome-free-brands'
+import { faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 
 export default function About() {
    const { scrollY } = useScroll()
@@ -39,10 +39,13 @@ export default function About() {
                ></motion.div>
                <div className={styles.expertiseCard}>
                   <motion.div className={styles.expertiseTitleContainer}>
-                     <FontAwesomeIcon
-                        icon={faReact}
-                        className={styles.technologySvg}
-                     />
+                     <div>
+                        <FontAwesomeIcon
+                           icon={faReact}
+                           className={styles.technologySvg}
+                        />
+                     </div>
+
                      <motion.h4 className={styles.expertiseTitle}>
                         Frontend Dev. <br /> React, NextJS
                      </motion.h4>
